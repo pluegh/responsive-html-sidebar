@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="layouts-common.css">
+    <style>
+
+      /* // [START lshifter] */
+      .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+      }
+
+      .sidebar, .content {
+        width: 100%;
+      }
+
+      @media (min-width: 600px) {
+        .sidebar {
+          width: 25%;
+        }
+
+        .content {
+          width: 75%;
+        }
+      }
+
+      @media (min-width: 800px) {
+        .container {
+          max-width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      /* // [END lshifter] */
+
+    </style>
+    <title>Responsive Web Design Pattern: Layout Shifter</title>
+  </head>
+  <body>
+    <div class="container" role="main">
+      <div class="sidebar">
+        sidebar
+      </div>
+      <div class="content">
+        <div class="header">header</div>
+        <div class="c3" id="fakeContent">content</div>
+        <div id="footer">footer</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.container .content #footer {
+  min-height: 0;
+  color: #ddd;
+  background-color: #0062d2;
+}
+
+.container #fakeContent {
+  height: 600px;
+}
+
+.sidebar {
+  color: #ddd;
+  background-color: #003476;
+}
+
+.container .content .header {
+  color: #ddd;
+  background-color: #0062d2;
+  min-height: 50px;
+}
+
+.container .content .c3 {
+  color: #333;
+  background-color: #b4d2f7;
+}
+
+.c4 {
+  color: #333;
+  background-color: #d5dfef;
+}
+
+.c5 {
+  color: #333;
+  background-color: #dfe1e5;
+}
